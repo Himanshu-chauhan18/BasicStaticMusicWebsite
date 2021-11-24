@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.services{
+    background: hsla(234, 80%, 88%, 1);
+
+background: linear-gradient(90deg, hsla(234, 80%, 88%, 1) 0%, hsla(340, 68%, 88%, 1) 50%, hsla(342, 72%, 85%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(234, 80%, 88%, 1) 0%, hsla(340, 68%, 88%, 1) 50%, hsla(342, 72%, 85%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(234, 80%, 88%, 1) 0%, hsla(340, 68%, 88%, 1) 50%, hsla(342, 72%, 85%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#CACFF9", endColorstr="#F5CBD9", GradientType=1 );
+padding-bottom: 60px;
+-webkit-clip-path: polygon(50% 0%, 100% 0, 100% 100%, 75% 91%, 0 100%, 0% 60%, 0 0);
+clip-path: polygon(50% 0%, 100% 0, 100% 100%, 75% 91%, 0 100%, 0% 60%, 0 0);
+
+}
+
+.services h1{
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+   
+}
+
+.services .box{
+   border-radius: 20px;
+   margin-left: 40px;
+     width: 26%;
+     margin: 20px;    
+     float: left;   
+     padding: 20px;
+     height: 265px;
+     text-align: center;
+     background: hsla(238, 100%, 71%, 1);
+
+background: linear-gradient(90deg, hsla(238, 100%, 71%, 1) 0%, hsla(295, 100%, 84%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(238, 100%, 71%, 1) 0%, hsla(295, 100%, 84%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(238, 100%, 71%, 1) 0%, hsla(295, 100%, 84%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#696EFF", endColorstr="#F8ACFF", GradientType=1 );
+
+box-shadow: 10px 10px 5px gray;
+}
+
+.services::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.services h3{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.services p{
+    font-size: 15;
+    margin-top: 10px;
+}
+
+.services button{
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 9px;
+}
+
+.services button:hover{
+    background-color: rgb(128, 66, 66);
+}
+
+.services .align{
+    margin-left: 200px;
+}
